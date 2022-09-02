@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22FAA12928C0D131008A03EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FAA12828C0D131008A03EE /* AppDelegate.swift */; };
+		22FAA12B28C0D131008A03EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FAA12A28C0D131008A03EE /* SceneDelegate.swift */; };
+		22FAA12D28C0D131008A03EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FAA12C28C0D131008A03EE /* ViewController.swift */; };
+		22FAA13028C0D131008A03EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FAA12E28C0D131008A03EE /* Main.storyboard */; };
+		22FAA13228C0D134008A03EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FAA13128C0D134008A03EE /* Assets.xcassets */; };
+		22FAA13528C0D134008A03EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FAA13328C0D134008A03EE /* LaunchScreen.storyboard */; };
+		22FAA15B28C1AECC008A03EE /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FAA15A28C1AECC008A03EE /* EditViewController.swift */; };
+		22FAA15D28C1DE0A008A03EE /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FAA15C28C1DE0A008A03EE /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22FAA12528C0D130008A03EE /* NucleicAcid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NucleicAcid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FAA12828C0D131008A03EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22FAA12A28C0D131008A03EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22FAA12C28C0D131008A03EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22FAA12F28C0D131008A03EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22FAA13128C0D134008A03EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22FAA13428C0D134008A03EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22FAA13628C0D134008A03EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FAA13F28C0D134008A03EE /* NucleicAcidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NucleicAcidTests.swift; sourceTree = "<group>"; };
+		22FAA14928C0D134008A03EE /* NucleicAcidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NucleicAcidUITests.swift; sourceTree = "<group>"; };
+		22FAA14B28C0D134008A03EE /* NucleicAcidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NucleicAcidUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22FAA15A28C1AECC008A03EE /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		22FAA15C28C1DE0A008A03EE /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22FAA12228C0D130008A03EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22FAA11C28C0D130008A03EE = {
+			isa = PBXGroup;
+			children = (
+				22FAA12728C0D131008A03EE /* NucleicAcid */,
+				22FAA13E28C0D134008A03EE /* NucleicAcidTests */,
+				22FAA14828C0D134008A03EE /* NucleicAcidUITests */,
+				22FAA12628C0D130008A03EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22FAA12628C0D130008A03EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22FAA12528C0D130008A03EE /* NucleicAcid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22FAA12728C0D131008A03EE /* NucleicAcid */ = {
+			isa = PBXGroup;
+			children = (
+				22FAA12828C0D131008A03EE /* AppDelegate.swift */,
+				22FAA12A28C0D131008A03EE /* SceneDelegate.swift */,
+				22FAA12C28C0D131008A03EE /* ViewController.swift */,
+				22FAA15A28C1AECC008A03EE /* EditViewController.swift */,
+				22FAA15C28C1DE0A008A03EE /* Utils.swift */,
+				22FAA12E28C0D131008A03EE /* Main.storyboard */,
+				22FAA13128C0D134008A03EE /* Assets.xcassets */,
+				22FAA13328C0D134008A03EE /* LaunchScreen.storyboard */,
+				22FAA13628C0D134008A03EE /* Info.plist */,
+			);
+			path = NucleicAcid;
+			sourceTree = "<group>";
+		};
+		22FAA13E28C0D134008A03EE /* NucleicAcidTests */ = {
+			isa = PBXGroup;
+			children = (
+				22FAA13F28C0D134008A03EE /* NucleicAcidTests.swift */,
+			);
+			path = NucleicAcidTests;
+			sourceTree = "<group>";
+		};
+		22FAA14828C0D134008A03EE /* NucleicAcidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22FAA14928C0D134008A03EE /* NucleicAcidUITests.swift */,
+				22FAA14B28C0D134008A03EE /* NucleicAcidUITestsLaunchTests.swift */,
+			);
+			path = NucleicAcidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22FAA12428C0D130008A03EE /* NucleicAcid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FAA14F28C0D135008A03EE /* Build configuration list for PBXNativeTarget "NucleicAcid" */;
+			buildPhases = (
+				22FAA12128C0D130008A03EE /* Sources */,
+				22FAA12228C0D130008A03EE /* Frameworks */,
+				22FAA12328C0D130008A03EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NucleicAcid;
+			productName = NucleicAcid;
+			productReference = 22FAA12528C0D130008A03EE /* NucleicAcid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22FAA11D28C0D130008A03EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					22FAA12428C0D130008A03EE = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 22FAA12028C0D130008A03EE /* Build configuration list for PBXProject "NucleicAcid" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22FAA11C28C0D130008A03EE;
+			productRefGroup = 22FAA12628C0D130008A03EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22FAA12428C0D130008A03EE /* NucleicAcid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22FAA12328C0D130008A03EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FAA13528C0D134008A03EE /* LaunchScreen.storyboard in Resources */,
+				22FAA13228C0D134008A03EE /* Assets.xcassets in Resources */,
+				22FAA13028C0D131008A03EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22FAA12128C0D130008A03EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FAA15B28C1AECC008A03EE /* EditViewController.swift in Sources */,
+				22FAA12D28C0D131008A03EE /* ViewController.swift in Sources */,
+				22FAA12928C0D131008A03EE /* AppDelegate.swift in Sources */,
+				22FAA12B28C0D131008A03EE /* SceneDelegate.swift in Sources */,
+				22FAA15D28C1DE0A008A03EE /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22FAA12E28C0D131008A03EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FAA12F28C0D131008A03EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22FAA13328C0D134008A03EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FAA13428C0D134008A03EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22FAA14D28C0D134008A03EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22FAA14E28C0D134008A03EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22FAA15028C0D135008A03EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_OWNER = Lcrnice;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ES4Q79SYZQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NucleicAcid/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "核酸提醒";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INSTALL_OWNER = Lcrnice;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lcrnice.NucleicAcid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22FAA15128C0D135008A03EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_OWNER = Lcrnice;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ES4Q79SYZQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NucleicAcid/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "核酸提醒";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INSTALL_OWNER = Lcrnice;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lcrnice.NucleicAcid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22FAA12028C0D130008A03EE /* Build configuration list for PBXProject "NucleicAcid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FAA14D28C0D134008A03EE /* Debug */,
+				22FAA14E28C0D134008A03EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22FAA14F28C0D135008A03EE /* Build configuration list for PBXNativeTarget "NucleicAcid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FAA15028C0D135008A03EE /* Debug */,
+				22FAA15128C0D135008A03EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22FAA11D28C0D130008A03EE /* Project object */;
+}
