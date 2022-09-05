@@ -192,7 +192,7 @@ extension ViewController {
             let targetSeconds = self.secondsBeforeNotice()
             Utils.configNumber(targetSeconds, forKey: U.targetTimestampKey)
             self.createNotification(second: targetSeconds)
-            if !UserDefaults.standard.bool(forKey: U.withoutRepeatNoticeKey) {
+            if !Utils.bool(key: U.withoutRepeatNoticeKey) {
                 self.createNotification(second: targetSeconds + 15 * 60)    // 15min 后再次提醒
                 self.createNotification(second: targetSeconds + 30 * 60)    // 30min 后再次提醒
             }
